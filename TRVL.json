@@ -1,0 +1,625 @@
+var places= [
+    
+    {
+        "Amazing Thailand":{
+            "price": 12000,
+            "duration": "4 Nights/ 5 Days",
+            "trip": "Family Vacations",
+            "noofdays":5,
+            "day1": {
+                "title": "Pattaya",
+                "activities": "Arrival After transfer bangkok airport move to pattaya hotel and check-in to the hotel and relax."
+            },
+            "day2": {
+                "title": "Pattaya",
+                "activities": "Pattaya - Coral Island with Lunch After breakfast, you will be transferred to the sparkling blue waters of the Gulf of Thailand by a speedboat, and arrive at the idyllic Coral Island (Koh Lan), where you will spend the day luxuriating under the welcoming tropical sun. You can lounge, swim, snorkel or simply enjoy the sun at the islandâ€™s immaculate golden beaches. You all have the option of viewing the beautiful coral formations around the island either through a glass-bottom boat or by diving in. Upon your return from the island, you will enjoy a scrumptious Indian lunch at Pattaya. Coral Island tour on join/shared speed boat will stop for Parasailing for those who are interested. Those who are not interested in Parasailing will wait for the rest to finish the activity. Travel tip : Donâ€™t forget to carry your swimsuit, sunscreen and towel."
+            },
+            "day3": {
+                "title": "Pattaya",
+                "activities": "Day liesure After breakfast at the hotel ur free to roam around the Pattaya"
+            },
+            "day4": {
+                "title": "Bangkok",
+                "activities": "Breakfast - check out from Pattaya hotel - 10:00 pm transfer to Bangkok Bangkok City Temple Tour En - Route Pattaya to Bangkok (Marble & Golden Buddha with Gems Gallery) Overnight stay at hotel."
+            },
+            "day5": {
+                "title": "Departure",
+                "activities": "Bangkok: Departure After breakfast checkout from the hotel. Now, you will be transferred to the Bangkok International airport. From here, your flight back home."
+            },
+            "inclusions": ["3 Nights stay in Pattaya", "1 Night stay in Bangkok", "4 Breakfast", "Coral Island Tour with lunch", "Bangkok city tour (temple tickets not included)", "Return Airport transfers from BKK Airport on a private basis Accommodation On Twin Sharing Basis "],
+            "exclusions": ["Temple tickets not included", "Visa", "GST And TCS", "All personal expenses like tips, laundry, telephone calls/fax, alcoholic beverages, camera/video camera fees at monuments, medical expenses, airport departure tax etc.", "Anything not mentioned under Package Inclusions", "Cost incidental to any change in the itinerary/stay on account of flight cancellation due to bad weather, ill health, and roadblocks and/or any factors beyond control.", "Travel Insurance "],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/kfDWul3sUMCQcaKFtlXN6hP7sPXD0AAyP6MhSdZi.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/fhLM6SNQ8fOkrrb4l8yW2yFTZEa4hLGtpuwHY5DL.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/x0XZI7pN8eC4PLjl8gRz6BlOR5Ji6rShr5mWitYX.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/4zpkoo3BPrI9erH4RGVE0AKHOtA2sum7j3zklOLF.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/yKH45DQyEbwv1O8V8hzfCTSMBi4DO9wm3g15Lgkd.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/t2UuXLQZXdA7WXTSQrWHupVEcySuJ2iqcMy0CcGN.jpg"],
+            "vid": "https://www.youtube.com/watch?v=lbk9ARB3r9A"
+        }
+    },
+    
+    
+    {
+        "Amazing Bali": {
+            "price": 78000,
+            "duration": "6 Nights/ 7 Days",
+            "trip": "Honeymoon Trips",
+            "noofdays":7,
+            "day1": {
+                "title": "Arrival to Bali Airport. Pick up from Airport & drop at hotel for check in at hotel / Villa",
+                "activities": "After arrival at Bali International Airport, our driver will pick the guest from the airport, and drop them to there hotel, for check in at the hotel / villa"
+            },
+            "day2": {
+                "title": "HD Water Sports @ Benoa COMBO 1 (Banana Boat, Flying fish , Jet Ski)",
+                "activities": "Pick up from the hotel. Half Day tour with visit to Benoa for Water Sports. We have included one round each of Banana Boat, Flying fish Jet Ski. You can do other water sports / activities on your own expenses. Drop back to the hotel after the water sports are done."
+            },
+            "day3": {
+                "title": "Day free for Leisure",
+                "activities": "Day free for leisure. You can enjoy the hotel/ Villa amenities, also you can opt for optional tours in Bali, after discussion with our Bali team, or your driver"
+            },
+            "day4": {
+                "title": "FD Kintamani + Ubud Tour + Coffee Plantation + Tukad cepung waterfall",
+                "activities": "Visit to Kintamani area for viewing of Mount and Lake Batur from Viewing Point + Ubud tour (Ubud Market, Ubud Palace) + Coffee Plantation"
+            },
+            "day5": {
+                "title": "HD Tanah Lot Sunset tour + Taman Ayun + Kedaton Monkey forest",
+                "activities": "Pick up from your hotel / villa around 1200 - 1300 hrs, depending on your hotel location. Today you will visit to Kedaton Monkey forest, followed by Taman Ayun, known for its heritage. Later in the evening, enjoy sunset at Tanah Lot Temple, a famous Hindu Temple located on a beach."
+            },
+            "day6": {
+                "title": "Day free for Leisure",
+                "activities": "Day free for leisure. You can enjoy the hotel/ Villa amenities, also you can opt for optional tours in Bali, after discussion with our Bali team, or your driver"
+            },
+            "day7": {
+                "title": "Check Out & Airport Drop / Departure from Bali",
+                "activities": "Check out from the hotel maximum by 1200 hrs . Depending on your flight timings, You will be transferred from Hotel to Bali International Airport, for your flight back to your home / Next Destination. Note: Hotel check out time, can be different also, depending on the hotel policy"
+            },
+            "inclusions": ["Number of nights stay in mentioned hotel", "Daily Breakfast at the hotel's restaurant (from day 2) (Only if hotel is booked with us) & Other meals as mentioned in the itinerary", "A/C SUV vehicle (Description given Below) during the tours and transfers, mentioned in the itinerary.", "1 - 4 pax -- SUV vehicle (Avanza / Xenia / Similar", "5 - 6 pax -- SUV Vehicle (Avanza / Xenia / Similar + Separate Luggage Van for luggage during Airport transfers and Inter- hotel transfers", "7 - 12 pax -- Small Isuzu Elf / Similar + Separate Luggage Van during Airport transfers & Inter- hotel transfers", "01 water bottle during the full day tours and half day tour (per Adult)", "Welcome with Flower Garland upon Arrival.", "Airport to Hotel & Hotel to Airport Private Transfers.", "All transfers & sight seeing's as mentioned in the itinerary on PRIVATE SUV VEHICLE only, other than mentioned.", "Driver cum tour guide during the tours and transfers.", "All entrance fees + Local Taxes, Donations, parking and toll charges, for the above mentioned itinerary.", "Airfare"],
+            "exclusions": ["TCS", "Extra charges if Separate Tour Guide is needed", "Any thing are not mation in Package", "Visa "],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/jzBrxcHYHbXJrrMq3kYlClqtn6ikIyvrd2Da2K96.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/rdDssFzMDI5B11YJ1LV5WfiINTBjIsomJG6OtP4Q.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/tZTwFi3meR7IpLunQl8EC05twb98udpPzz2gREyX.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/kuF2Q1rM4okmnjFDMfWq7EaZUzXyVe3Er2GKAVVQ.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/m2GWu44j6jzzRqGyxab7GlBPF53UuCUK6qh99FkF.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/I3bDq3U2rGVSJDgLXTcBasdWca1yYhWjLGwX8Ao1.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/uZOLb3JEJGof7HBwyR2AUlpFe87X2vbQ0lU8z2jR.webp"],
+            "vid": "https://www.youtube.com/watch?v=BFS9n4B_2xA"
+        }
+    },
+
+
+   
+    {
+        "Singapore": {
+            "price": 60000,
+            "duration": "4 Nights/ 5 Days",
+            "trip": "Family Vacations",
+            "noofdays":5,
+            "day1": {
+                "title": "Arrival to Singapore",
+                "activities": "Arrival to singapore You will be transferred back to your hotel. Check in and spend the rest of the day at leisure. in the evening we will move to Night Safari tour . Come close to more than 2,500 nocturnal animals from 130 species in their natural habitat. The residents of Night Safari include Malayan tigers, flying foxes, Asian elephants, tapirs, lions, giraffes, and flying squirrels. Explore trekking and walking trails, and also get entertained by the cultural shows and traditional tribal dance performances. Overnight stay at the hotel. Note- Lunch & Dinner at any indian restaurant"
+            },
+            "day2": {
+                "title": "GARDENS BY THE BAY VISIT+ UNIVERSAL STUDIO",
+                "activities": "Enjoy your Breakfast in the morning, Today visit to one of the best destinations in Singapore; Universal studio,Gardens by the Bay. It is a nature park comprising three waterfront gardens. You can visit Supertree Grove, Cloud Forest, or Flower Dome in the park. These Supertrees are the main attraction of the gardens and have a height of around 25 meters. Itâ€™s a whole new world when you enter the park. The Gardens By the Bay is spread in an area of 101 hectares and is home to a wide variety of flora. Overnight stay in hotel. Note- Lunch & Dinner at Any indian restaurant."
+            },
+            "day3": {
+                "title": "Singapore Panoramic City Drive",
+                "activities": "Singapore Panoramic City Drive After breakfast start Singapore Panoramic City Drive many places to vist. overnight stay at hotel. Note- Lunch & Dinner at Any indian restaurant."
+            },
+            "day4": {
+                "title": "Sentosa Island",
+                "activities": "Sentosa Tour After breakfast, you will be taken for a 7 hour Sentosa Experimental Tour. In the afternoon, you will get a transfer from your hotel to Mount Faber, where you will board a cable car to Sentosa. . With more than 10 different zones, like madame tussuads & The tour will end with Wings of Time, a night show featuring water, laser and fire effect. Once the tour ends, you will get a transfer back to your hotel. Please refer to inclusion section for activities included. Note- Lunch & Dinner at indian restaurant."
+            },
+            "day5": {
+                "title": "Departure",
+                "activities": "Enjoy your last morning in Singapore before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
+            },
+            "inclusions": ["04 nights", "Accommodation at V Lavender hotel/similar", "Assistance upon arrival / departure at Airport", "Daily Breakfast At Hotel", "03 Lunch and 04 Dinner (SET MEAL) without transfer", "Night Safari", "Singapore Panoramic Drive(2.5hrs)", "Garden by the Bay(flower dome+supertree)", "Sentosa (,One-way Cable Car, Madame Tussauds, Wings of Time – 1st Show)", "Universal Studio", "Visa included – Singapore", "Return Airport & Cruise Transfers All tours on SIC Bases (transfers on Seat in Coach)"],
+            "exclusions": ["GST 5%", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the Prices included", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/EAeKACUGX3HjtikGrat98SstwkEricLvG9liS5Gk.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/o6OeE8OpkMZZCdtebGl2dzb6tdaV3Ergxzym00Du.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/3J20hVTxK7HbAAS3Wr1ZgAXMzCU0HpuOtfRfgqfo.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/mZyJrsxahxLT0gVkg8xqrgNC3k4M8KJxUbmFLMvk.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/umD475pvHHc26aFTxEHxA6MPqDCVEsqU6prPgaRx.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/ZRH7VERIxwVZl0N3fF5IijZcl7I0qH3DPgU70Hff.jpg"],
+            "vid": "https://www.youtube.com/watch?v=aaGJ_fDcceg"
+        }
+    },
+
+   
+    {
+        "Ladakh Delight": {
+            "price": 23999,
+            "duration": "4 Nights/ 5 Days",
+            "trip": "Indian Holidays",
+            "noofdays":5,
+            "day1": {
+                "title": "LEH ARRIVAL",
+                "activities": "Arrival at Leh airport, to be received by our representative and transferred to the Hotel. Check in to the hotel for a complete day of rest for acclimatization. Post lunch visit Leh Market, Leh Palace and Shanti Stupa. Diner and Stay overnight in Leh."
+            },
+            "day2": {
+                "title": "LEH LOCAL (SHAM VALLEY)",
+                "activities": "After breakfast visit to Magnetic Hill, Hall of Fame, Gurudwara Pathar Sahib and The Sangam of Zanskar & Indus River. Dinner and Stay overnight in Leh."
+                },
+            "day3": {
+                "title": "LEH TO NUBRA",
+                "activities": "After breakfast, drive to Nubra Valley (Known as the Valley of Flowers and the warmest region in Ladakh) via Khardung La pass. This road is considered to be the highest motorable road of the world. Enroute, admire the spectacular views of the never ending snow-capped mountain ranges around Khardung La Pass (18,390 feet). After spending some time at Khardung La, proceed to Nubra. Visit diskit monastery and sand dunes. Enjoy ATV ride and camel Safari in the evening(at own cost). Check in campsite/hotel . Dinner and Stay overnight stay in Nubra."
+            },
+            "day4": {
+                "title": "NUBRA TO PANGONG To Leh",
+                "activities": "We will start the day following the same route towards Leh till we reach Khalsar. From the Agyam bridge, we will take the left route which leads us to the villages of Shyok and Durbuk. The road after Shyok is good but very steep. After Durbuk, take left towards Tangtse and follow the traditional route. Drive further to Pangong Lake one of the largest and most beautiful natural brackish lakes in the Himalayas. Situated at 14000 ft, more than half of the lake is within Chinese Territory and only one third part lies in India. Explore the lake area, might catch some rare wildlife. Dinner and Stay Overnight in Leh"
+            },
+            "day5": {
+                "title": "LEH To Leh Airport",
+                "activities": "Early morning transfer to Leh airport to board flight back. Journey ends with Sweet Memories of Ladakh."
+            },
+            "inclusions": ["Nights stay at Leh as mentioned above in Itinerary.", "Night stay at Nubra.", "Night stay at Pangong", "Non AC Vehicle (Sedan TRAVELER) as per above Itinerary", "from Leh airport to Leh airport ON POINT TO POINT BASIS", "04 Breakfast & 04 Dinners at Hotel/Camp/resort.", "Inner Line Permit", "Oxygen Support for Nubra Pangong Tour", "Fuel and Mechanic (For Bike Trips)"],
+            "exclusions": ["GST 5%", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head Prices included.", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control.", "Air Fare"],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Ec94kFtnXGpkfNhKGUKbQTHgiCJL0NjLu5Zda7ts.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/zcpxregRVFRWBT2XTUBgsml87HTSoCZf3Jb48W6h.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/NfcnS2AxkqTEum7xskdZWyF7o1ziiVLPWGO0dXPk.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/QcIg7X4osXIwxsB1NLU5cXJcUsfQGmVUPeio65Bq.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/ZZobTrumQTEfqvtBPFGMWOClHg7nSemyxZO2zJbD.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/ZZobTrumQTEfqvtBPFGMWOClHg7nSemyxZO2zJbD.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/uwthbRYxPzWMHhjJbHh0OViXovbFimhcPD9nJ34C.jpg"],
+            "vid": "https://www.youtube.com/watch?v=AK-MUzWdpjU"
+        }
+    },
+
+    
+    {
+        "Maldives": {
+            "price": 66500,
+            "duration": "3 Nights / 4 Days",
+            "trip": "Family Vacations",
+            "noofdays":4,
+            "day1": {
+                "title": "Arrival in Maldives",
+                "activities": "Welcome to Maldives ! Upon arrival at the Velana airport, clear the immigration formalities and get transferred to the hotel.Overnight stay at Hotel.."
+            },
+            "day2": {
+                "title": "Maldives City Tour",
+                "activities": "After breakfast, proceed for a Half day maldives city tour. Begin your tour and pass by the president office and take some pictures in front of the main gate . Later visit Hukuru miskiy,Sultan Park & the great Friday mosque. Overnight stay at Hotel."
+            },
+            "day3": {
+                "title": "Day at Leisure",
+            "activities": "After Breakfast, the day is at Leisure to explore the Island on Your Own or can choose from Optional Tours. Overnight Stay at Hotel."
+            },
+            "day4": {
+                "title": "Departure",
+                "activities": "After breakfast, check out of the hotel and proceed to the airport for your return flight to India."
+            },
+            "inclusions": ["Airfare Included", "Half Day Maldives Tour as Per Itinerary", "Assistance upon arrival on Airport", "Daily Breakfast & Dinner", "Free Upgrade To Beach Villa", "Accommodation For 3 Nights 4 Days", "Welcome Non-Alcoholic Drink On Arrival."],
+            "exclusions": ["GST 5%", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head Prices included.", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Qok4IXekRYvV1Hk14QgjfwH1axaedaroNcWn3wEE.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/f7pcApspbTk1a35TTCMG2R0bJZBcLI5euDFOuu26.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/pnpgHgofumXtFg7EFC6jhXbOG4t4MOzgtIxaXmTS.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/KRyTRtxYQPjtG3ymuEX5l5UGcKmDQ8JiEBstQLCs.jpg"],
+            "vid": "https://www.youtube.com/watch?v=XhCkptbe7Z4"
+        }
+    },
+    
+    
+    {
+        "Magical Dubai": {
+            "price": 43500,
+            "duration": "6 Nights/ 7 Days",
+            "trip": "Honeymoon Trips",
+            "noofdays":7,
+            "day1": {
+                "title": "Arrival + Dhow Cruise",
+                "activities": "You will be welcomed at Dubai International Airport by our representative. Transfer to the hotel. in evening Go for an awesome experience of cruising with our Dhow cruise . This two hours cruising tours has a complete package with entertainment"
+            },
+            "day2": {
+                "title": "Burj Khalifa Non Prime Time + Dubai Underwater Zoo And Aquarium",
+                "activities": "Post a hearty breakfast, .you will get a visit to the 124th floor of Burj Khalifa, from there see the panoramic views of the stunning city. You will also visit the Dubai Aquarium and Underwater Zoo where you can see the beautiful marine creatures. The second day comes to an end, head back to the hotel for an overnight sleep"
+            },
+            "day3": {
+                "title": "Desert Safari",
+                "activities": "After a tempting breakfast at the hotel,you are free to roam around by your own Later, set off for an adventurous Desert Safari tour. Enjoy desert activities like dune bashing and a grand spread of barbecue dinner. Get to your hotel and retire for the night."
+            },
+            "day4": {
+                "title": "Abu Dhabi City Tour And Ferrari World With Tickets",
+                "activities": "Have a filling early morning breakfast and embark on a full-day Abu Dhabi city tour. Explore Abu Dhabiâ€™s ancient as well as modern arenas. The bustling capital city is home to world-class museums, parks, dining places, spas, shopping malls, hotels, theaters, and golf courses. Later, proceed to the Ferrari World theme park. Try your hand at the engaging rides Post dinner, transfer back to the hotel in Dubai and retire for the night"
+            },
+            "day5": {
+                "title": "Aqua-venture water park + Lost chamber",
+                "activities": "After Breakfast visit Atlantis The Palm is one of the most iconic structures in Dubai. The world- famous landmark in the city is renowned for two separate attractions â€“ The Aquaventure and Lost Chambers Aquarium. â€¢ An ultimate destination for fun & entertainment, Aquaventure features adventure-filled water coasters, zip lines, a lazy river, and multiple splash areas. â€¢ Additionally, there is also a spectacular 9-story vertical slide that goes directly into the shark-filled lagoon. â€¢ At the mesmerizing Lost Chambers Aquarium, you can witness over 6,500 marine animals â€“ get up close to them and brush up your aquatic knowledge!"
+            },
+            "day6": {
+                "title": "Dubai City Tour",
+                "activities": "Post a hearty breakfast, set out for a joyful half-day Dubai city tour. Lose yourself in the exotic Middle Eastern experience. You will see world-class places that will give you a glimpse of Dubai history, culture, and traditions. The second day comes to an end, head back to the hotel for an overnight sleep"
+            },
+            "day7": {
+                "title": "Departure",
+                "activities": "Wake up in the morning, have a scrumptious breakfast and pack your bags for your departure. Complete the check-out formalities and get ready to leave for Dubai airport. Reach your desired destination and end the trip with unforgettable memories."
+            },
+            "inclusions": ["Dubai Airport Return Transfer", "06 Nights Stay 04 Star Hotel", "06 Breakfast and 02 Dinner", "Half Day Dubai City tour", "Desert Safari BBQ Dinner, Tanura show, Belly dance,Camel ride", "Dhow Cruise Dinner and Transfer", "Aquarium & UWZ +Burj Khalifa 124 floor Non prime Ticket and Transfer", "5%VAT inclusive", "All tours and Transfer on SIC basis", "Tourism Dirham will be payable by the Guest direct at the Hotel", "Aqua - Vanture Water park + Lost Chamadar Ticket"],
+            "exclusions": ["Visa & insurance", "All personal expenses like tips, laundry, telephone calls/fax, alcoholic beverages, camera/video camera fees at monuments, medical expenses, airport departure tax etc.", "Anything not mentioned under Package Inclusions.", "Entrance fees at all monuments and sightseeing spots if not added in inclusions", "Cost incidental to any change in the itinerary/stay on account of flight cancellation due to bad weather, ill health, and roadblocks and/or any factors beyond control", "Travel Insurance if not mentioned in the itinerary", "T.C.S", "Tourist dirham fees directly payable at hotel by the guest "],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Qky619FEaVa8rfC3DdB1Us2BjfFPP1FUN7FPA6Vi.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/5f5CnH8LlKFCH7ZYxvrholfPTVZjMZzRrHY23eUe.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/HDq8pFnRsuDvAZ4ZhFlm75Qk2F51UAo5pnh4bZDy.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/4fAlbr0Ec6WjQYmY4W5kAzFUmhKuWQcD5gxsEFFt.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/ZYV6VtiaSc709VmT1zB8QhYVGNzPDgnrOkK8ehBw.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/hYL11XPj0RRJYURXAGVmNrlQyJeBy3iPCDQKUxs8.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Yiv4Ex103HL2MxC23eW9x3FFNBGbfQ1XmQopIirY.jpg"],
+            "vid": "https://www.youtube.com/watch?v=BFS9n4B_2xA"
+        }
+    },
+
+
+    
+    {
+        "Manali": {
+            "price": 12250,
+            "duration": "3 Nights / 4 Days",
+            "trip": "Budget Friendly",
+            "noofdays":4,
+            "day1": {
+                "title": "Delhi to Manali",
+                "activities": "On arrival at Delhi Airport/Railway Station you will met our assistant and will assisted towards Manali. On the way sightseeing are Sunder nagar Lake, Pandoh Dam, Hanogi Mata temple, Hanogi Bridge, Vaishno Devi temple and Kullu. Reached Manali, dinner & overnight stay at the hotel in Manali"
+            },
+            "day2": {
+                "title": "Manali - Solang Villey",
+                "activities": "Enjoy The Morning Breakfast At The Hotel And Later Get Ready For An Excursion To Visit Kothi Gorge, Is Outstandingly Beautiful And Is An Ideal Spot To View The Majestic Snow Covered Himalayas, Serene Natural Surrounding, Pristine Lake And Fairy White Snow Round The Year. Return Back To The HotelOn Time For Dinner And Overnight Stay. Adventure In Sollang Valley - Solang-Valley Provide Paragliding, Skiing , Horse Riding, Yak Riding, Snow Scooter, Parashooting, Scatting, Zorbing, Cable Car Ropeway, Helicopter Ride, Adventures Training Etc."
+            },
+            "day3": {
+                "title": "Kullu Nagar",
+            "activities": "After the Breakfast On The Via Visit Water fall,JanaFall, Jogini Falls, Rahala Waterfalls, Rozy Falls, Keep Your Cameras Ready, There Are Many Scenic Spots As You Pass By Kullu Valley, Beas River, Dashehra Maidan Etc. Arrive And Transfer To Hotel. Evening Is Free To ExploreVarious Scenic Sights Or Visit MallRoad. OvernightStay In Manali. About Kullu:- Kullu (1220m) Was Once Known As Kulanthapitha - The End Of The Habitable World. Beyond Rose The Forbidding Heights Of The Greater Himalaya, And By The Banks Of The Shining River Beas Lay The Fabled Silver Valley. Kullu Got Its First Motorable Access Only After Independence. The Long Centuries Of Seclusion Have However Allowed The Area To Retain Of Every Orchard. Here Are Riches Which Cannot Be Measured And Echo Down The Ages With The Words Of Every Myth And Ancient Legend And Glow In The Warm Smiles Of Its Gentle People. There Is Pleasure In Every Step You Take In These Enchanted Valleys And In Every Gurgle You Hear In The Clear Mountain Streams"
+            },
+            "day4": {
+                "title": "Departure",
+                "activities": "After breakfast, check out of the hotel and proceed to the airport for your return flight back."
+            },
+            "inclusions": ["Daily Breakfast & Dinners in Hotel", "All Sightseeing & Transfer by AC cab", "Accommodation in Hotel for 03 Nights", "Insurance while travelling in our car", "Driver expenses", "All Inter StateTaxes", "3 Star hotel"],
+            "exclusions": ["GST 5%", "Any Airfare,Train fare,Overland Journey which is not mentioned in the Itinerary", "Guide / Entry fees, Boating, rohtang pass entry fees, Elephant riding / Horse riding etc. During sightseeing.", "Any personal nature items like Laundry, bar bills, table bills, camera fee, Tips or any other item.", "Room Heater in Hotel", "Any Medical /rescue evacuation due to mishaps.", "What Ever is Not Specified above ", "Gala Dinner cost not included"],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/VKyaIIKRBLSRlE9MbPvVYuQLXCFgZhYlBtbyULMB.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/qqOJzh2b07yXXnB3HBCMow58hw6GItJj3A45KXSn.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/WJsbdUOMajZNU0Ub8D2rK1pQFUaVvHQQu9Kvv8Yo.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Z1P7YONi5NNbaHoI9TdLE9tEHFJhfjnBCECT66FR.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/f1bZ3yVMC0OJ5AsKq5XsvDnnD168Vys41r5WLXmF.jpg"],
+            "vid": "https://www.youtube.com/watch?v=XhCkptbe7Z4"
+        }
+    },
+
+    
+    {
+        "Goa Delight": {
+            "price": 19999,
+            "duration": "4 Nights/ 5 Days",
+            "trip": "Indian Holidays",
+            "noofdays":5,
+            "day1": {
+                "title": "Welcome to goa",
+                "activities": "Upon arrival at Goa Railway Station /Airport get greeted by our representative who will transfer you to the pre-booked Hotel/Resort. Evening will be free to stroll on beaches & chill out at the shacks. Overnight stay in Hotel.."
+            },
+            "day2": {
+                "title": "North goa sightseeing",
+                "activities": "After breakfast depart for North Goa Tour. Places to cover in North Goa will be Coco beach, Fort Aguada, Dolphin Trip (Onyour own), Baga Beach, Anjuna Beach, Calangute Beach. By late evening return to hotel for Overnight stay."
+                },
+            "day3": {
+                "title": "South goa sightseeing",
+                "activities": "Today we will be heading on towards South Goa sightseeing. Walk around in Basilica of Bom Jesus, Museum of Christian Art / Wax World Museum, Mangueshi Temple & Shantu Dugra Temple. Our day trip will finish off with a visit to Ancestral Goa â€“ A recreational yet educational spot at Loutolim. Later return to hotel for overnight stay."
+            },
+            "day4": {
+                "title": "Self Explore",
+                "activities": "You can explore more of Goa on your own or spend time in the hotel itself This day will be free to explore"
+            },
+            "day5": {
+                "title": "Departure",
+                "activities": "Today morning after breakfast check out from the hotel and you will be dropped at airport/railway station for your further journey..."
+            },
+            "inclusions": ["Sightseeing As Per The Itinerary", "All Applicable Taxes Except GST.", "All Transfers & Sightseeing On SIC Basis.", "Accommodation On Double Sharing Basis.", "Welcome Non-Alcoholic Drink On Arrival."],
+            "exclusions": ["GST 5%", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head Prices included.", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/LwrqA4GsvE9KbfQDXdjis3PL0x8ZpuxyuuPCNclx.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/mjJjiqIyMsG5c2rfIRThCrcsGgen0yG3sdbgdTFZ.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Tq6M4EMtp5SHbJPRTS7p6h0Q2HbhVg3CFDHzNqmm.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/wCWRv6TFM9uH6cW9JaVsLPD0RKKb8nY10ylF7vyt.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/iaOJBLiEwFxQvXmcJa1qgh01EmB7YokqZIDcxZmt.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/qNUXkSOkiTyx1q0uySTy5rZRYsOkm5zgOEKqSltn.jpg"],
+            "vid": "https://www.youtube.com/watch?v=AK-MUzWdpjU"
+        }
+    },
+
+    
+    {
+        "Elegant Europe": {
+            "price": 233000,
+            "duration": "10 Nights / 11 Days",
+            "trip": "International Holidays",
+            "noofdays":11,
+            "day1": {
+                "title": "Paris",
+                "activities": ["Arrive at Paris", "Evening explore the glamorous city of Paris", "Seine River Cruise", "Enjoy the nightlife in Paris", "World famous Lido Show (optional)", "Stay: Paris"]
+            },
+            "day2": {
+                "title": "Paris",
+                "activities": ["Panoramic city tour Place de la Concorde, Alexander Bridge, Invalides", "The majestic Arc de Triomphe", "Champs Elysees and Opera House", "The iconic landmark â€œThe Eiffel Tower", "Stay: Paris"]
+            },
+            "day3": {
+                "title": "Paris",
+                "activities": ["Euro Disney amusement park (Optional)", "Leisure time for shopping or explore the city on your own", "Stay: Paris"]
+            },
+            "day4": {
+                "title": "Brussels",
+                "activities": ["Day tour of Brussels", "Photo-stop at Atomium. Visit Grand Place, Town Hall, Guild Houses, Serclaes Monument", "Manneken Pis Statue of a little boy", "Stay: Eindhoven (Near Amsterdam)"]
+            },
+            "day5": {
+                "title": "Amsterdam",
+                "activities": ["Day tour of Amsterdam", "Visit Zaanse Schans, cheese factory", "Admire a classic lineup of authentic windmills, and watch a shoemaker fashion wooden clogs using traditional methods", "Experience the glass-topped boat for a canal cruise embracing the colorful sites of the city", "Stay: Eindhoven (Near Amsterdam)"]
+            },
+                "day6": {
+                "title": "Frankfurt",
+                "activities": ["Morning departure to Frankfurt", "En-route photo-stop at the Cologne Cathedral", "Stay: Frankfurt"]
+            },
+            "day7": {
+                "title": "Switzerland",
+                "activities": ["Rejoice the scenic ride to Switzerland", "En-rout visit Black forest, learn how German cuckoo clocks are made", "Visit Rhine Falls", "Rhine Boat Cruise (optional at your own cost)", "Stay: Lenk (Near Interlaken - Switzerland)"]
+            },
+            "day8": {
+                "title": "Switzerland",
+                "activities": ["Gear up for an adrenaline rush as you embark to Mt. Titlis exciting ride up the snow-clad Swiss Alps in rotair the worlds first rotating cable car & shop for dear ones.","Lucerne City tour", "Stay: Lenk (Near Interlaken - Switzerland)"]
+            },
+            "day9": {
+                "title": "Switzerland (Jungfraujoch)",
+                "activities": ["Immerse in the snow-capped alps, deep lakes", "Or take a day excursion of amazing Jungfraujoch (top of Europe) (optional)", "Interlaken city tour", "Stay: Lenk (Near Interlaken - Switzerland)"]
+            },
+            "day10": {
+                "title": "Switzerland",
+                "activities": ["Proceed to Visit Lindt Chocolate Factory Outlet", "Bern City Orientation Tour", "Stay: Lenk (Near Interlaken - Switzerland)"]
+            },
+            "day11": {
+                "title": "Switzerland Departure",
+                "activities": "After breakfast check out from the hotel & proceed to the airport."
+            },
+            "inclusions": ["Accommodation for 03 Nights in Paris", "Accommodation for 01 Night in Brussels", "Accommodation for 01 Night in Amsterdam", "Accommodation for 01 Night in Frankfurt", "Accommodation for 04 Nights in Switzerland", "Orientation Guided Tour of Paris, Brussels, Frankfurt, Amsterdam & Switzerland", "Orientation tour of Amsterdam, Brussels, Vaduz, Switzerland, Paris Eiffel Tower level 2", "Paris Seine River Cruise", "Mountain Excursion to Mt. Titlis with Ice Flyer Wattens Swarovski Museum", "10 Breakfast as per provided by the hotel", "10 Veg / Non Veg / Jain Dinners at Indian Restaurant", "Air Tickets", "Visa", "Hindi / English speaking Tour Leader / Manager throughout the tour"],
+            "exclusions": ["GST 5%", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head Prices included.", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/kMclGsvmGjhfQdMb9G52BlKse488yjX6QLvokoQa.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/SD4oPEsDBlgd0JihBCdRiljHSdphVR3vHQqO76Bc.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/LuMmeECTTPZIaHZndeIUXLOglhxh3L3w2FDjZFc5.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/le72GrCCK5dBh7ZJdk7cXrg7nMUQm8RZ7PtUFdVv.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/z2XOV50y1qzZBEfwZXDk96Gv8WmiiC37bj4S8n0F.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/9WWe6WgeLD5IvIsSZ5VnSNWaUdln6X0peQfEnyDt.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Pg4TQ1i8fcmbx8C4aCyAUc8xgwxBe7b7oWlz45JW.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/IF1rmyeSNXm77jZmUHKpqsTsNlinoB4dGc3qNznq.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/qC5EJnp5dunXYZobMV4CDKvA1qPmaIMDv4qWE6hh.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Vw8RPaHIYOUEt3frVH4xfMEyAdChQiFgoEW3V8Nz.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/ZTc4R8E8HhhHUxoRa6AVUbdUB8hVhSWX6pKINHFz.jpg"],
+            "vid": "https://www.youtube.com/watch?v=lbk9ARB3r9A"
+        }
+    },
+    
+
+    {
+        "Phuket and Bangkok": {
+            "price": 25100,
+            "duration": "5 Nights/ 6 Days",
+            "trip": "Budget Friendly",
+            "noofdays":4,
+            "day1": {
+                "title": "Arrive in Phuket",
+                "activities": "Welcome to Thailand! You will be welcomed on arrival at Phuket Airport and transferred to picturesque seaside town of Phuket. Check-in to your Hotel / Resort and rest of day is free for you to explore Phuket on your own."
+            },
+            "day2": {
+                "title": "Phuket City Tour",
+                "activities": "After breakfast at the hotel, you will leave for Phi Phi Island by speedboat, an hour away. Enjoy the sun, sand and turquoise waters on this tiny stretch of paradise. The adventurous could try their hand at parasailing, sea walking or exploring the coral reefs. Or you could sip cocktails and soak up some sun. Return to Phuket at the end of the evening and stay overnight at your hotel."
+            },
+            "day3": {
+                "title": "Phi Phi Island Tour with Local Lunch",
+                "activities": "Surrounded by limestone karsts, the island of Khao Phing Kan first shot to fame with the James Bond film The Man with the Golden Gun. Now an indelible part of most itineraries, the island is known for its crystal clear waters, towering karsts and dense jungles that line the seashore. On your tour of the island you can enjoy swimming, snorkeling, jet skiing and a sumptuous lunch."
+            },
+            "day4": {
+                "title": "Bangkok",
+                "activities": "After Breakfast Check out and transfer to phucket airport. flight to bangkok. later check in bangkok and City Tour"
+            },
+            "day5": {
+                "title": "Safari World Bangkok",
+                "activities": "Embark on an ultimate Safari Experience and have a rendezvous with wild animals of all kinds. During the whole drive, you will forget that you are in a zoo in Bangkok. Safari Park is a vast utopia of wilderness and adventure. Meet crocodiles, giraffes, Koalas, and whatnot as you drive through the wild lanes. Go to the top of the Safari Terrace where you can come literally neck to neck with the tall giraffes and feed food to them. You can either take your own car inside the park or join one of the luxury coaches in the park. The main highlight of the Safari is the Wildlife Feeding Show where the professional caretakers in the park put on a show of feeding food to animals."
+            },
+            "day6": {
+                "title": "Departure",
+                "activities": "Bangkok: Departure After breakfast checkout from the hotel. Now, you will be transferred to the Bangkok International airport. From here, your flight back home"
+            },
+            "inclusions": ["Assistance upon arrival / departure at Airport.", "03 Nights accommodation on twin sharing Basis at phucket.", "02 Night accommodation on twin sharing Basis at bangkok.", "Phucket city Tour on SIC Basis.", "Phi phi Island Tour on Sic basis", "Bangkok city Tour on Sic basis", "safari world On Sic basis", "5 Breakfast", "Airport transfers"],
+            "exclusions": ["GST 5%", "Airfare", "VISA", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head Prices included.", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/TYLvxpHmgcI6DI76Kb9QBD3MIEDNmch4Hwh6OQsC.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/TanzCBlNKzpzp9H50bfnOvQmsi9tJCNC7m8XiEKh.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/92alJ5QYJhcHtkdVQX2kWH6RKqPqZSB8X4QyhWCm.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/kOcxCmJ8JutMVGPoomt6OmpNznNDigrMCj3D77Ql.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/w7WZzs3bDaf6OKBScWqkIgstee87vYbx54G1gc1s.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/ENE1BXoKlLfni1pPR2V9i85u8jYQZxXAE3vRf5Q2.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/7W2i0O58CvVE4g3dvqBFA1jyBpYoskxRniDQZCC0.jpg"],
+            "vid": "https://www.youtube.com/watch?v=BFS9n4B_2xA"
+        }
+    },
+
+
+
+    {
+        "Royal Kashmir Tour": {
+            "price": 26250,
+            "duration": "5 Nights/ 6 Days",
+            "trip": "Adventure Trips",
+            "noofdays":6,
+            "day1": {
+                "title": "ARRIVE SRINAGAR",
+                "activities": "Welcome to the Srinagar, the Lake City. On arrival at Srinagar Airport, being your tour of Royal Kashmir Tourâ€™. You will be transferred to Hotel. Proceed on a city tour visiting the Shankracharya temple situated on the highest hill of Srinagar, the famous Mughal Gardens-Chashmashahi, Nishat & Shalimar. These gardens were Mughal Emperors concept of Paradise and today these are popular picnic spots. Also visit a handicraft shop where you can purchase local Hand Crafted items-Shawls, Jackets, Bed Covers, Paper Mache, Carpets & much more! In the evening leisurely stroll alongside the Dal Lake exploring the local markets . Overnight stay at the Hotel."
+            },
+            "day2": {
+                "title": "Gulmarg",
+                "activities": "In morning having Breakfast drive to Gulmarg, the meadow of flowers. The route from Srinagar to Gulmarg is fascinating. You will be mesmerized by its beauty. Gulmarg is famous all over the world for Skiing and Snowboarding. During the British Raj, Gulmarg hosted the Britishers and Europeans and as such they created a European hill resort and named it Gulmarg. In Gulmarg you would be able to find European surroundings and 18-hole Golf Course. Night halt at Hotel in Srinagar"
+            },
+            "day3": {
+                "title": "Sonmarg",
+                "activities": "Today you embark on a full day excursion to the picturesque Meadow of Gold Sonamarg. Sonamarg is last stop of Kashmir district. From here starts the territory of Ladhakh. Situated at an altitude of 2743 mt above sea level. The fast flowing Sindh River makes it popular for trout and masher fishing in summer. You can opt for a pony ride to one of the glaciers for some fun in snow and ice (by your own payment). Return to the Hotel in Srinagar in the evening and enjoy comfortablea overnight stay."
+            },
+            "day4": {
+                "title": "Pahalgam",
+                "activities": "Early in the morning leave for Pahalgam the Valley of Shepherds which is situated at the confluence of the streams flowing from river Lidder and Sheeshnag Lake. En route visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarman. On arrival into Pahalgam enjoy the surrounding beauty or walk to Baisaren, which is about 2 km from Pahalgam. A small village set in pine and fir forest is pleasing and offers good view. Night halt at Hotel in Pahalgam.."
+            },
+            "day5": {
+                "title": "Srinagar Houseboat",
+                "activities": "Afte Breakfast return to Srinagar and Check in Houseboat in Srinagar in the evening and enjoy comfortable overnight stay. Also enjoy 1 hour Shikara ride"
+            },
+            "day6": {
+                "title": "SRINAGAR AIRPORT DEPARTURE",
+                "activities": "After breakfast transfer to Srinagar Airport to board your flight with Everlasting Memories."
+            },
+            "inclusions": ["Assistance upon arrival / departure at Airport.", "03 Nights accommodation on twin sharing Basis at Srinagar", "01 Night accommodation on twin sharing Basis at Pahalgam.", "01 Night accommodation on twin sharing Basis at Srinagar Houseboat.", "05 Breakfast and 05 Dinners", "Transportation and sightseeing by Sedan or similar ", "01 Bottle of packaged drinking water every day.", "Rates are valid on 2 pax minimum", "Shikara Ride 01 Hour ", "GST"],
+            "exclusions": ["Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head Prices included", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Any Kind of Drinks (Alcoholic, Mineral, Aerated)", "Camera fee, Soft or Hard drinks, Starters.", "Medical & Travel insurance", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/934MsujdZhtTzDdFV7ao0INZgh8sEE8bUukuehfi.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/j4wCdPqZfi3BBDwaxCvVKWnopF2Hk398ZsUh1X0H.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/VYLdlJ9CISSaZmM9CAlcxp0nvzRwiANzno81sFxE.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/1SlxynaRhb6BUDnUd2jDAwiBvIDP3sCt0fjIDIjL.png", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/jXSN6Izd3XRfacsjOoPZYVJGjKBDvFD2XIbx5M9C.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/mHsWXI2WnbOjVaofKRcBMKYMEqpRFEPFTo4SDpV7.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/mHsWXI2WnbOjVaofKRcBMKYMEqpRFEPFTo4SDpV7.webp"],
+            "vid": "https://www.youtube.com/watch?v=AK-MUzWdpjU"
+        }
+    },
+
+
+    {
+        "Kashmir Delight": {
+            "price": 20000,
+            "duration": "5 Nights/ 6 Days",
+            "trip": "Family Vacations",
+            "noofdays":6,
+            "day1": {
+                "title": "ARRIVE SRINAGAR",
+                "activities": "On arrival Srinagar meet for assistance and transfer to hotel, check in to hotel. Afternoon Later enjoy ride on a Shikara ONE HOUR, - a Kashmiri gondola - to the watery vegetable markets and see the mountains mirrored in the lakes. You will get a view of some remarkably interesting places around the Lake. In the evening return to hotel for Dinner and overnight stay at hotel."
+            },
+            "day2": {
+                "title": "SRINAGAR - SONMARG 02 HRS DRIVE (98 KMS) FROM SRINAGAR",
+                "activities": "After having breakfast, in the morning, you will be driven for full day excursion trip to Sonamarg. It is a quiet alpine retreat surrounded with sycamore, silver birch, fir and pine trees and the last halt on the Kashmir side for the drive from Srinagar to Leh. It is also the base for some interesting treks to the high altitude of Himalayan Lake. (IN SONAMARG, Pony Rides must be paid directly), in late evening return to Srinagar for dinner and overnight."
+            },
+            "day3": {
+                "title": "SRINAGAR TO PAHALGAM",
+                "activities": "After breakfast, you will be driven from Srinagar to Pahalgam, en-route visit Saffron fields of Pampore, see the beautiful countryside, lots of rice fields and Awantipora ruins on the way, later continue your drive to Pahalgam through the pine forest, the confluence of the streams flowing from the river Lidder & Sheshnag Lake which are famous for their scenic beauty. On arrival, proceed for horse ride (optional) and enjoy the most beautiful scenic view of Himalayan Mountains. About 11 km from Pahalgam, the Aru Valley offers eclectic view and calm environs to tourists. Next, take a tour of the Betaab Valley, set amidst pine trees. It has been a favorite shooting location for many Bollywood directors. Take a pony ride to one of the many beautiful spots around Pahalgam. Valley must be paid directly). Dinner and overnight."
+            },
+            "day4": {
+                "title": "PAHALGAM TO GULMARG",
+                "activities": "After breakfast, proceed for a picturesque drive to Gulmarg. Gulmarg was discovered as a tourist destination by the British in the 19th century. Prior to that, Mughal emperors vacationed in the Gulmarg valley which is about 03 Kms long and up-to 01 km wide. It is exquisitely situated in a pine surrounded basin of the Pir Panjal range at an altitude of 2,730 meters above sea level and one of the most famous tourist destinations of Kashmir. It also has one of the worldâ€™s highest green golf courses with 18 holes, as well as a clubhouse, which is a historical building. It is one of the most beautiful summer resorts in the valley. It is also popular for its golf course during summer season and as a ski resort during the winter season, on arrival proceed for a picturesque ride of world-famous Gondola chair car (pay directly ticket charges) later visit famous Shiv mandir in Gulmarg. Dinner and overnight."
+            },
+            "day5": {
+                "title": "GULMARG TO SRINAGAR",
+                "activities": "After breakfast, check out from hotel and drive to Srinagar, check in to houseboat proceed to visit of world-famous Mughal Gardens visiting the Nishat Bagh (The garden of pleasure) and Shalimar Bagh (Abode of love), Shankarachariya Shiv Temple, Pari Mahal (Fairies adobe) and Ancient City tour of Srinagar. Later drive back to houseboat for dinner and overnight stay at houseboat."
+            },
+            "day6": {
+                "title": "SRINAGAR AIRPORT DEPARTURE",
+                "activities": "After breakfast check out from houseboat and you will be transferred to Srinagar airport on time to board flight."
+            },
+            "inclusions": ["1 Night stay in Houseboat", "1 Night stay in Pahalgham", "1 Night stay in Gulmarg", "2 Night stay in Srinagar hotel", "Day trip of Sonmarg", "5 Bfast + 5 Dinner", "All tours & transfers by non A/C PVT SEDAN CAB All toll parking taxes included"],
+            "exclusions": ["Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Anything not specifically mentioned under the head Prices included", "The Services of Vehicle is not included on leisure days & after finishing the", "sightseeing as per the Itinerary", "Guide fee, Camera fee & any monument Entrances", "Medical & Travel insurance", "Any changes you may choose to make during your tour", "Additional costs due to flight cancellation, road blocks etc"],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/nNu8EnTaGqxHELhLJlza9UINTXwqokUtStsdvOl0.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/X8e2QtUMYuNKeQNeRGbpJ560iegcDVTQ7gveU1V6.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/h44PVXJ4rTk3uFZSYf4kgwopJaMjMAwmbuu4w2xk.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/yd1qhFsypLlVHkw2oRkgrzR53JFDXnsrKGnNDZPy.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/Qjw8Og15yRi9wKJGZicEOrZPwHgwv6LFJNkAdc93.png", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/OhOBwe26NrYmaMfLjBkOMk7Ut1ezLaFCapYEDMGT.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/x809dHNVvSpaSLhp8HAwqNOhrotbPogkl87D67uw.jpg"],
+            "vid": "https://www.youtube.com/watch?v=AK-MUzWdpjU"
+        }
+    },
+    {
+        "Colours Of Rajasthan": {
+            "price": 41100            ,
+            "duration": "13 Nights / 14 Days",
+            "trip": "Group Tours",
+            "noofdays":14,
+            "day1": {
+                "title": "WELCOME ABOARD TOURPEDIA EXCITING TOUR TO RAJASTHAN. START YOUR TOUR IN JAIPUR - PINK CITY",
+                "activities": "Khamma Ghani! (Greetings) Padharo Sa (Welcome) to Jaipur - Pink City! On Arrival you will be greeted by your friendly Tour Manager / Local Representative outside the Airport or Railway Station. Sit back in the comfort of your car / coach, as we drive you to Mandawa. In the afternoon check-in to your hotel and relax (Standard Check In Time 1400 Hrs). Later in the evening visit Mandawa streets and market places. Overnight Stay In Mandawa"
+            },
+            "day2": {
+                "title": "MANDAWA - BIKANER",
+                "activities": "Today, after breakfast, check out and sit back and relax in your deluxe car/coach as you visit Mandawa Fort, decorated with paintings of Lord Krishna and adorned with artistic carvings and amazing mirror work. Later, proceed to Bikaner, the former capital of the princely state of Bikaner, known worldwide for its savory snack, Bikaneri Bhujia. Upon arrival, visit the Karni Mata Temple, a Hindu temple dedicated to Karni Mata, famous for the approximately 25,000 black rats that live in and are revered at the temple. After a tiring day, check in at the hotel and take a rest before another exploring day. Overnight Stay In Bikaner"
+            },
+            "day3": {
+                "title": "BIKANER - JAISALMER",
+                "activities": "After having a delicious breakfast at the hotel, check out and sit back and relax in your deluxe car/coach. Today, explore the Junagarh Fort – an impressive fort standing with all its regal glory as an epitome of architectural brilliance. The dazzling and exquisite structures of this fort, balconies, gardens and kiosks etc. depicts a composite architectural style influenced by cultural differences of Indian and foreign inspirations. Here you’ll see Anup Mahal, Gaj Mandir, Sheesh Mahal and Prachina Museum and Sadual Museum. Later, proceed to Jaisalmer – Golden City of desert famed for its yellow sandstone architecture. Upon arrival we take a blissful boat ride in Gadisar Lake surrounded by many temples, shrines and Ghats. Later, enjoy a delightful puppet show – a preserved ancient folk art of Rajasthan. Aisalmer – Golden City of desert famed for its yellow sandstone architecture. Upon arrival we take a blissful boat ride in Gadisar Lake surrounded by many temples, shrines and Ghats. Later, enjoy a delightful puppet show – a preserved ancient folk art of Rajasthan. Overnight Stay In Jaisalmer"
+            },
+            "day4": {
+                "title": "JAISALMER - SAM SAND DUNES",
+                "activities": "After a delicious breakfast at the hotel, check-out, sit back and relax in your deluxe car/coach. Today, explore Jaisalmer City. Visit Golden Fort – a UNESCO world heritage site and one of the very few living forts in the world, as nearly one fourth the population of the city still resides within the Fort followed by a visit to Jain Mandir – carved in yellow sandstones dedicated to Jain hermits known as Tirthankars. Later you will visit Patwon ki Haveli Museum – Palace built in the early 1800s, now a museum featuring intricate carvings, furniture and artwork and see Nathmalji ki haveli. Now is the time to visit Kuldhara – an abandoned village believed to be cursed. You then proceed to the famous Sam Sand Dunes. Upon arrival, experience thrilling Dune Bashing over the golden sands of Jaisalmer. In the evening you’ll get an opportunity to witness the spectacular beauty of sandy terrain by taking a joyful Camel Ride and view the Red Orange color splash of sunset on the horizon of the desert. Later, enjoy a traditional Rajasthani Folk Dance followed by dinner. Overnight Stay In Sam Sand Dunes, Jaisalmer"
+            },
+            "day5": {
+                "title": "JODHPUR - BLUE CITY",
+                "activities": "After a delicious breakfast at the hotel, check-out, sit back and relax in your deluxe car/coach as you proceed towards Jodhpur. Arrive Jodhpur - “Blue City; and check-in to your hotel and proceed on an exciting city tour - Visit Ummaid Bhawan Palace Museum – almost 75 years old architectural marvel-now turned into museum showcasing artistic murals, opulent miniature paintings, vintage clocks and unusual household paraphernalia, Mehrangarh Fort – which stands four hundred feet above the skyline of Jodhpur. The fort is burnished in Red Sandstone and its colossal structure is surely impressive in all manner. Here we will see Moti Mahal, Sea Shells and Mirrors, Phool Mahal – Pleasure dome of the Maharajas, Sheesh Mahal, Silah Khana, Daulat Khana and Rang Mahal. Later, visit Jaswant Thada – a royal cenotaph built in the white marble also known as Taj Mahal of Marwar. In the evening,you’ll have free time for shopping in the famous clock market. Overnight Stay In Jodhpur"
+            },
+            "day6": {
+                "title": "KUMBHALGARH",
+                "activities": "After a delicious breakfast at the hotel, check out and relax in your deluxe car or coach as you head towards Kumbhalgarh, one of India’s most exotic fort cities. Upon arrival, visit the magnificent Kumbhalgarh Fort, the pride of the Mewar Empire. The fort provides a superb bird’s-eye view of the surrounding landscape. Its formidable walls stretch for 36 kilometers, often earning it the title of India's equivalent to the Great Wall of China. Overnight Stay In Kumbhalgarh"
+            },
+            "day7": {
+                "title": "KUMBHALGARH-UDAIPUR",
+                "activities": "Enjoy a delightful breakfast at the hotel before checking out and relaxing in your deluxe car/coach as you journey to the magnificent Kumbhalgarh Fort, a symbol of Mewar's pride. Marvel at its expansive walls stretching 36 kilometers, often likened to India's Great Wall, while enjoying breathtaking views of the surrounding landscape. Later, continue your journey to Udaipur, renowned as the City of Lakes and the erstwhile capital of the Mewar Kingdom. En route, visit the Statue of Belief, home to the world's tallest Shiva statue in Nathdwara. After an eventful day, check in to your Udaipur hotel, preparing for another day of exploration and discovery. Overnight Stay In Udaipur"
+            },
+            "day8": {
+                "title": "UDAIPUR",
+                "activities": "After a delicious breakfast at the hotel, begin your exploration with a visit to Moti Magri, or Pearl Hill, which offers stunning views of Fateh Sagar Lake. Next, marvel at the architectural splendor of the City Palace. Enjoy a boat ride on Lake Pichola to reach the exquisite Jag Mandir, a palace situated on an island. Afterwards, take some free time to shop and discover local treasures. In the evening, delight in a traditional music and dance show, immersing yourself in the rich cultural heritage of Udaipur. Overnight Stay In Udaipur"
+            },
+            "day9": {
+                "title": "CHITTORGARH - PUSHKAR",
+                "activities": "After a delicious breakfast at the hotel, check out and relax in your deluxe car or coach as you proceed towards Pushkar, one of the oldest cities, known for its rich heritage, culture, and warm hospitality. En route, visit the Chittorgarh Fort, a symbol of Rajput bravery and a UNESCO World Heritage Site. Here, you will explore Rana Kumbha Palace, the birthplace of Maharana Udai Singh, the founder of Udaipur. Visit Meera Mandir, once the home of the famous bhakti poetess Meerabai. Marvel at Vijay Stambha, a victory monument erected by the Mewar king to commemorate his triumph over Mahmud Khilji. Finally, visit Queen Padmini’s Palace, situated amidst water bodies, where Aladdin Khilji was allowed to see the mirror image of Queen Padmini. On arrival at Pushkar, check in at the hotel and take a rest before another exploring day. Overnight Stay In Pushkar"
+            },
+            "day10": {
+                "title": "JPUSHKAR - KOTA",
+                "activities": "Today after a delicious breakfast at the hotel, visit Brahma Mandir – one of very few existing temples dedicated to the Hindu creator-god Brahma built in the 14th century, followed by a visit to Pushkar Tirth. Check out and then proceed to Kota – a popular city in Rajasthan that lies along the banks of River Chambal. En route, visit Kishangarh – Kashmir of Rajasthan. Upon arrival at Kota, check in and then visit Seven Wonder Park. Overnight Stay In Kota"
+            },
+            "day11": {
+                "title": "KOTA - RANTHAMBORE",
+                "activities": "After enjoying a delicious breakfast at the hotel, check out and relax in your deluxe car or coach. Your first stop is the Garadia Mahadev Temple, often referred to as India’s Grand Canyon, a shrine dedicated to Lord Shiva. This site offers an excellent viewpoint, with a 300-foot deep gorge through which the Chambal River flows, flanked by gigantic cliffs. Next, proceed to Ranthambore, once a royal hunting ground, now renowned as a National Park. It is home to a diverse array of wildlife, including tigers, leopards, jackals, mongooses, sloth bears, and marsh crocodiles. Overnight Stay In Ranthambore"
+            },
+            "day12": {
+                "title": "RANTHAMBORE - JAIPUR",
+                "activities": "After enjoying a delicious breakfast at the hotel, check out and relax in your deluxe car or coach. Today, embark on an exhilarating Jungle Safari at Ranthambore National Park, where you can observe a wide variety of wildlife in their natural habitat. Later, proceed to Jaipur, the capital city of Rajasthan, also known as the Pink City of India. Upon arrival, visit the Birla Temple, originally known as the Lakshmi Narayan Temple, dedicated to Lord Vishnu and Goddess Lakshmi. This grand temple, situated on an elevated ground at the base of Moti Dungri hill, offers a serene and majestic experience. Overnight Stay In Jaipur"
+            },
+            "day13": {
+                "title": "JAIPUR",
+                "activities": "Today, after breakfast, immerse yourself in the journey as you will explore Jaipur City – the capital of Rajasthan. You will visit Hawa Mahal – the palace of winds, Jantar Mantar – A UNESCO World Heritage site, also an astronomical marvel, and City Palace – the royal residence, known for its architectural blend of Indian, Mughal, Rajput and European styles. Later, visit Panna Meena ka Kund and Amer Fort – known for its Mughal influenced artistic style. In the evening, enjoy the sound and light show at Amer Fort. Overnight Stay In Jaipur"
+            },
+            "day14": {
+                "title": "JAIPUR - DEPARTURE",
+                "activities": "It’s time now to say goodbye, Phir Milenge! Let’s stay in touch with each other through email, phone, WhatsApp, Facebook, Instagram, etc. and meet again on yet another memorable tour. See you all! Tour guests will proceed to the airport as per their scheduled group flight or train departure time and start their journey back home."
+            },
+            "inclusions": [" Accommodationat the hotels specified above or similar.", "Services of a Tour Manager.", "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary."],
+            "exclusions": ["Taxes as applicable.", "Any expenses of personal nature such as laundry, wines, mineral water, food and drink not in the regular menu provided by us.", "Tips to hotel waiters, drivers, etc.", "Meals are pre-set and a choice of menu is not available.", "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passenger other than those included in the ‘What your Tour Price Includes’ box are to be paid for extra.", "Adventure sports and shopping etc."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/NKBWUH5gFbs9y9gjCoojygcNQ641OV7IgMSUWnNU.webp", "https://imgs.search.brave.com/FIE9I7FMOSr5e_1suWRzWnILsQW_4AhTwfswbsF01qE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/NDY3MDg5Ny9waG90/by9qYWlwdXItaW5k/aWEtZnJvbnQtb2Yt/dGhlLWhhd2EtbWFo/YWwtdGhlLXBhbGFj/ZS1vZi13aW5kcy1y/YWphc3RoYW4tamFp/cHVyLWluZGlhLW9u/LWp1bHktMTMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPUdi/WW93RmNyX0h3UC01/QXF3NWVLTkI0bHdu/ZUswcGVoQWhfc3R5/WVljZ289", "https://imgs.search.brave.com/Z2y8y0Buk3ApvrOTidVz_sWJc-Z0GKLaepRbyWtFOiQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dHJhdmVsb2d5aW5k/aWEuY29tL3N0b3Jh/Z2UvYXBwL2l0aW5l/cmFyeS8xL3JhbWJh/Z2gtcGFsYWNlLWph/aXB1ci5qcGc", "https://imgs.search.brave.com/1EIQHHUVvGLCa87CVT_R0zeb0F-4F6tjoG12BNv2HdU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2VsY29tZXJhamFz/dGhhbi5jb20vaW1h/Z2VzL3JhamFzdGhh/bi10b3VyLXBhY2th/Z2VzLmpwZw", "https://imgs.search.brave.com/KO5C5YRyG2vDV23i67LLzHm7KnSwSED0BcLMXSLur5Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzc2Lzkz/LzY5Lzc2OTM2OTA5/ZDVhNTRmYTg5MDg3/YThlNzFkYjg3NGFl/LmpwZw", "https://imgs.search.brave.com/vXqgD7MJk79J3-AvPf8bmpjZnzfliGH8KM2r-DXfVhg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTY5/MjM4NjUzL3Bob3Rv/L3JhamFzdGhhbi1q/YWlwdXItd2F0ZXIt/dGFuay1mb3ItcmFp/bi5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9d0dJQnhrU0JC/bG54YldhQ3F4TUdL/cTcxZ0NQVWQ0MWxq/c1I0NDNuUGZlTT0", "https://imgs.search.brave.com/8rlln3yuM8o6EOuPbKBtvvWRTW2gY9pei8CZ1amPghQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQx/MDA0MDU4NS9waG90/by9wb3J0cmFpdC1v/Zi1hLW1hdHVyZS1y/YWphc3RoYW5pLW1h/bi5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9UnFTamItd3RZ/cFB0d3BsdHhEUlpq/UzFMcHl2Yk5vclpW/Wi1wNVZJdWdqYz0" ],
+            "vid": "https://www.youtube.com/watch?v=BFS9n4B_2xA"
+        }
+    },
+
+
+
+    {
+        "Sri Lanka": {
+            "price": 49999,
+            "duration": "5 Nights/ 6 Days",
+            "trip": "Budget Friendly",
+            "noofdays": 6,
+            "day1": {
+                "title": "ARRIVAL IN COLOMBO",
+                "activities": "Upon arrival at the Colombo Bandaranaike International Airport, you will be received warmly by our representative. You will then be escorted to your vehicle to begin your holiday in Sri Lanka. Enroute to your destination, you can visit one of the most important tourist attraction in Sri Lanka, the Pinnawala Elephant Orphanage.Volunteers and caretakers provide shelter and take care of orphaned, abandoned and injured elephants within the park."
+            },
+            "day2": {
+                "title": "KANDY",
+                "activities": "Lying amidst the hills, Kandy is the last capital of the ancient kings of Sri Lanka. While being the second largest city in Sri Lanka it is also famous for its immense beauty and is named as one of the seven UNESCO declared World Heritage sites in the country. With its luxuriant prairie, picturesque lake, longest river of the country and misty mountains, Kandy successfully mesmerizes every visitor unsurprisingly. While on your city tour you will visit one of the world heritages as well as a sacred place for the Buddhists all over the world;namely the Temple of tooth Relic known to the Sri Lankans as Dalada Maligawa.Then you will be dropped off by the Kandy Lake where you can enjoy a leisure walk around the Kandy Lake.Then visit Royal Botanical Garden.The real evidence of the richness will be affirmed by your visit to the Gem Museum.Sri Lanka produces the finest quality of gems in the world.Semi - precious gems, the sapphires of Sri Lanka, which are very exclusive and comes in shades of blue, red, green, white etc.In the evening you will witness a traditional cultural dance show.(Entrance fees to sites not included)  Overnight stay in Kandy "
+            },
+            "day3": {
+                "title": "KANDY TO BENTOTA",
+                "activities": "After breakfast leave for Bentota.Bentota is the city of the Golden Beaches. You will be able to relax and feel the spirit of the sea and the warmth of the soft sand. The day is divided in between swimming in the water and bathing in the sun."
+            },
+            "day4": {
+                "title": "BENTOTA",
+                "activities": "After breakfast city tour of Bentota. If you are looking for more exclusive experience visit the turtle hatchery and Madhu river ride . The Turtle Hatchery is the prime turtle nesting site which was open by the Wild life Protection Society in 1981. Visitors can see huge tanks filled with new born turtle hatchlings."
+            },
+            "day5": {
+                "title": "BENTOTA TO COLOMBO",
+                "activities": "Colombo is the largest city and commercial capital of Sri Lanka. Located on the west coast, it is a busy and vibrant city with a mixture of modern and colonial impressions. Colombo has wildly varying architecture that span centuries and depict various styles. Many colonial buildings influenced by the Portuguese, Dutch and British exist alongside structures built in Buddhist, Hindu, Islamic, Indian and Contemporary architectural styles. No other place is this more evident in the heart of the city the Fort area. Colombo also boasts many shopping malls and department stores that offer brand name clothing at highly discounted prices. Therefore, it has become an important shopping destination among tourists. While on your city tour in Colombo you may visit famous places including Galle Face Green, the Viharamahadevi Park, Twin World Trade Center towers, Old Parliament Building, Fort district, Independence Hall at Independence Square.(Entrance fees to sites not included).For shopping, you may visit Odel, House of Fashion, Beverly Street, Majestic City, Noritake, etc.[Total time allocated for city tour is 3 hrs] Overnight stay in Colombo. "
+            },
+            "day6": {
+                "title": "DEPARTURE FROM COLOMBO",
+                "activities": "After relishing a hearty breakfast, you would check-out from the hotel and be transferred to the airport/railway station in time for your departure."
+            },
+            "inclusions": ["Accommodation", "Daily Breakfast.", "Transportation in an air-conditioned vehicle on private basis throughout tour.", "Service of an English-Speaking Chauffeur Guide for groups up to 10 pax and for groups above 11 pax, an English-speaking National guide will be provided with an additional cost.", "Air Fare Included", "Service charges & Government tax"],
+            "exclusions": ["GST 5%", "Any Kind of Personal Expenses or Optional Tours / Extra Meals Ordered", "Monument & Museum Entrance Fees for the sights mentioned in the Itinerary.", "Anything not specifically mentioned under the head ", "Tips, Insurance, Laundry, Phone Calls", "The Services of Vehicle is not included on leisure days & after finishing the sightseeing tour as per the Itinerary", "Camera fee, Soft or Hard drinks, Starters.", "Additional costs due to flight cancellation, road blocks etc. Cost incidental to any change in the itinerary/ stay on account of flight cancellation due to bad weather, ill health, roadblocks and/or any factors beyond control."],
+            "images": ["https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/3oz51ttvQ9GKTjPucvYxlRJyNphODostMIW3QN7o.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/dEOLWUGKUT2c6RoOEMAFb8wN8DOpmOF96MRB356q.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/T7eo07zDwdmLkGuIjszWFgxWFThzHJSYuxBMEXDQ.webp", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/e8SBWsKuU9xhIXH4MtwgeSoNnHzaXP6FAHJGaYEf.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/XL1cWXixFsSe7B7vHTFtRs6r6Kq2QZ0NkqlxBMP9.jpg", "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/EtToH4Aim2B4crrXolvwgBufW6ZYBxrGLfy793ka.jpg"]
+        }
+    },
+
+
+    {
+        "Andaman Deluxe Package": {
+            "price": 22000,
+            "duration": "6 Nights/ 7 Days",
+            "trip": "Honeymoon Trips",
+            "noofdays": 7,
+            "day1": {
+                "title": "PORT BLAIR ARRIVAL",
+                "activities": "On reaching Port Blair airport meet our representative who will escort you to the hotel, take some rest, after that get ready for the sightseeing of Cellular Jail, Corbyn's Cove Beach. Also enjoy the light & sound show at the Cellular Jail in the evening time. After the sightseeing, get back to the hotel for dinner and overnight stay. Sightseeing for the day: 1. Cellular Jail 2. Corbyn's Cove Beach."
+            },
+            "day2": {
+                "title": "PORT BLAIR TO HAVELOCK",
+                "activities": "Have your breakfast, check out from the hotel and drive towards Havelock Island. You will visit the marvelous Radhanagar Beach and Kalapathar Beach, which has been voted the best beach in Asia and is among the top ten beaches of the world. After a memorable excursion at the beautiful beach, in the evening get back to the hotel for dinner and overnight stay. Sightseeing of the day: 1. Radhanagar Beach 2. Kalapathar Beach."
+            },
+            "day3": {
+                "title": "HAVELOCK TO ELEPHANT BEACH",
+                "activities": "Have your breakfast and get ready for the sightseeing of Elephant Beach. Elephant Beach is very famous for the variety of untouched corals and rich marine life with diverse species. The coral reefs of this beach start about a meter or two. A little deep into the sea, you can spot vibrant corals and schools of colorful fish swimming around elegantly. Must admit it is an amazing view! In the evening get back to the hotel for dinner and overnight stay. Sightseeing of the day: 1. Elephant Beach."
+            },
+            "day4": {
+                "title": "HAVELOCK TO NEIL ISLAND",
+                "activities": "Have your breakfast and check out from the hotel and drive towards Neil Island. Explore Bharatpur Beach and Laxmanpur Beach. In the evening get back to the hotel for dinner and overnight stay. Sightseeing of the day: 1. Bharatpur Beach 2. Laxmanpur Beach."
+            },
+            "day5": {
+                "title": "NEIL ISLAND LEISURE DAY",
+                "activities": "Have your breakfast. This day will be your leisure day; spend some quality time in the hotel or explore the local market on your own. You can go to the beach and spend some quality time there. In the evening get back to the hotel for overnight stay."
+            },
+            "day6": {
+                "title": "NEIL ISLAND TO PORT BLAIR",
+                "activities": "Have your breakfast and check out from the hotel and drive towards Port Blair. Upon reaching Port Blair, get ready for the sightseeing of Chidiya Tapu Beach. The biological park at Chidiya Tapu, with its rich and diverse flora and fauna, is also a must-visit. One of the main attractions of Chidiya Tapu is its Sunset Point. In the evening get back to the hotel for dinner and overnight stay. Sightseeing of the day: 1. Chidiya Tapu Beach."
+            },
+            "day7": {
+                "title": "PORT BLAIR TO PORT BLAIR AIRPORT",
+                "activities": "Have your breakfast, check out from the hotel and drive towards the Port Blair Airport, board your flight towards your next destination."
+            },
+            "inclusions": [
+                "Pick up & Drop from Port Blair Airport By Individual Cab",
+                "06 Nights Accommodation on Double Sharing.",
+                "CP Meal Plan: 6 Breakfasts for each person",
+                "Transfers & sightseeing by Individual cab as per the itinerary but NGT T&C Apply.",
+                "Note: A/C will not be used in Hilly Areas. Taxes & Expenditures Included: Parking, Toll Tax, Luxury Tax, Green Tax, Fuel Exp. and Driver Expenses, Ferry Charges, Entry Tickets & Boat Tickets."
+            ],
+            "exclusions": [
+                "GST 5%",
+                "Air Fare/Train Fare/Bus Fare",
+                "Monument Entrance Fee / Camera Fees",
+                "Any Adventure Activities and Personal Expenses",
+                "Travel Insurance, Heater Charges in Hotels & Volvo Luggage Charges & Coolie Charges etc.",
+                "Early Check-in, Late Checkouts and Anything else not mentioned in Inclusion Section."
+            ],
+            "images": [
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/jPNUkEGVe7yukCNfqg64jTvCkPLBOnXx9E0jb6WF.jpg",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/kDvtOEbxsgy4rv9FYfdXHieK8yX0CbdtWKpM5UzI.webp",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/jPNUkEGVe7yukCNfqg64jTvCkPLBOnXx9E0jb6WF.jpg",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/W302HsLl1vVXAFM3xpfykGSABRDyNbQLMuozFCat.jpg",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/YKyB1kVavFsMHfzLsUygNz7mU5xW7ehBOCakjMI3.jpg",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/AEJcw4zxGSXG0adM0B1GqoJSbAiD8F59dZ5pZUme.webp",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/aLvm3rOSbt3r1o9NUwPnSZ73za2TPcwX09I8dhwN.jpg",
+                "https://awsbizz.sgp1.cdn.digitaloceanspaces.com/wtl/3o6FbXIa1X4gwAM5hB6bBeAeyOXa3zG0uRYUjUz4.webp"
+            ]
+        }
+    }
+]

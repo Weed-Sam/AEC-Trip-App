@@ -1,0 +1,24 @@
+[
+    {
+        "package_name": "Tamil Nadu Package",
+        "price": 9990,
+        "duration": "1 night \/ 2days",
+        "trip": "Budget Friendly",
+        "noofdays": 1,
+        "inclusions": [
+            "hi",
+            "hello"
+        ],
+        "exclusions": [
+            "good",
+            "bye"
+        ],
+        "images": [
+            "https:\/\/awsbizz.sgp1.cdn.digitaloceanspaces.com\/wtl\/Dirxbj6P0KkI8VwgiuZwq0Sx4UxeGDqZ3xKoazEn.webp"
+        ],
+        "day1": {
+            "title": "hi",
+            "activities": "hello"
+        }
+    }
+]
